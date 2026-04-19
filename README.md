@@ -3,10 +3,12 @@
 <p align="center">
   <img src="https://via.placeholder.com/800x200.png?text=Ant+Labs" alt="Ant Labs Banner"/>
 </p>
+<br>
 
 <p align="center">
   <b>🚀 Build like ants. Think like giants.</b>
 </p>
+<br>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Xyronyx/ANT-Labs?style=for-the-badge"/>
