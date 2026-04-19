@@ -1,0 +1,17 @@
+[
+  {
+    "title": "AI Assistant",
+    "desc": "Smart chatbot with AI",
+    "link": "projects/ai-assistant.html"
+  },
+  {
+    "title": "Android App",
+    "desc": "Modern mobile app",
+    "link": "projects/android-app.html"
+  },
+  {
+    "title": "Web Platform",
+    "desc": "Full-stack web app",
+    "link": "projects/web-platform.html"
+  }
+]

@@ -1,0 +1,288 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0a1a2f, #000814);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* PARTICLES */
+#particles {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #4cc9f0;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #4cc9f0;
+}
+
+/* SECTIONS */
+section {
+  padding: 120px 60px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #4cc9f0;
+  text-shadow: 0 0 25px #4cc9f0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 20px 0 30px;
+}
+
+/* ANT LOGO */
+.ant-logo svg {
+  width: 120px;
+  stroke: #4cc9f0;
+  stroke-width: 6;
+  fill: none;
+  filter: drop-shadow(0 0 20px #4cc9f0);
+  animation: float 3s infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* BUTTON */
+.glow-btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  background: #4cc9f0;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 0 30px #4cc9f0;
+  transition: 0.3s;
+}
+
+.glow-btn:hover {
+  transform: scale(1.1);
+}
+
+/* SERVICES */
+.services h2 {
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(76,201,240,0.3);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 0 0 40px #4cc9f0;
+}
+
+/* AI SECTION */
+.ai-section h2 {
+  font-size: 42px;
+  color: #4cc9f0;
+  text-shadow: 0 0 20px #4cc9f0;
+}
+
+.ai-box {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 40px rgba(76,201,240,0.3);
+}
+
+.ai-brain {
+  font-size: 80px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* CONTACT & FOOTER */
+footer {
+  padding: 20px;
+  opacity: 0.7;
+}
+/* NAV SCROLL EFFECT */
+nav.scrolled {
+  background: rgba(0, 8, 20, 0.9);
+  box-shadow: 0 0 20px rgba(76,201,240,0.3);
+}
+
+/* MOBILE MENU */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  nav {
+    padding: 20px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #000814;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+.projects {
+  padding: 120px 10%;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.project-card {
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.08) rotate(1deg);
+  box-shadow: 0 0 40px #00f5d4;
+}
+
+.project-card button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background: #4cc9f0;
+  cursor: pointer;
+}
+section {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button premium hover */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #4cc9f0;
+}
