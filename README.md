@@ -1,7 +1,7 @@
 # 🐜 Ant Labs
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=Ant+Labs" alt="Ant Labs Banner"/>
+  <img src="https://raw.githubusercontent.com/Xyronyx/ANT-Labs/main/banner.png" alt="Ant Labs Banner"/>
 </p>
 <br>
 
