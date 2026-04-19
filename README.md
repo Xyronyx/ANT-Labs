@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-  <b> Build like ants. Think like giants.</b>
+  <b>  Precision. Power. Scale. </b>
 </p>
 <br>
 
