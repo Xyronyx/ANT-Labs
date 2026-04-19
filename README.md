@@ -1,4 +1,4 @@
-# 🐜 Ant Labs
+#  Ant Labs
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Xyronyx/ANT-Labs/main/banner.png" alt="Ant Labs Banner"/>
