@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/your-username/ant-labs?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/forks/your-username/ant-labs?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/your-username/ant-labs?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/Xyronyx/ANT-Labs?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/forks/Xyronyx/ANT-Labs?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/Xyronyx/ANT-Labs?style=for-the-badge"/>
 </p>
 
 ---
